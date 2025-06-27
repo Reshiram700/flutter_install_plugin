@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'dev.fluttercommunity.plus.install_plugin'  // <- Agregado el namespace requerido
+
     compileSdkVersion 28
 
     sourceSets {
